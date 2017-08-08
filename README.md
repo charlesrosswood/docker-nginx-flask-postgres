@@ -11,3 +11,22 @@ This is a basic "naked" setup for a Flask web app with a PostgreSQL database. Sp
    - **PostgreSQL** *9.6* - for the web app database
    - **NGINX** *1.11.3* - as the reverse proxy to expose the web app to the outside world on port `80`
 
+Usage
+=====
+
+Pull this repo by:
+
+```bash
+$ git clone git@github.com:charlesrosswood/docker-nginx-flask-postgres.git ./
+```
+
+To use this package run:
+
+```bash
+$ docker-compose build
+$ docker-compose up
+```
+
+Then navigate to `0.0.0.0/v1/` to get the default response:
+![screenshot of hitting root](http://imgur.com/a/4YQh2)
+
