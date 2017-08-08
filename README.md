@@ -28,5 +28,5 @@ $ docker-compose up
 ```
 
 Then navigate to `0.0.0.0/v1/` to get the default response:
-![screenshot of hitting root](http://imgur.com/a/4YQh2)
+![screenshot of hitting root](http://imgur.com/UyAF0Fu)
 
